@@ -1,0 +1,13 @@
+
+> webspatial-bundle-repro@ build:web <repo>
+> env -u XR_ENV vite build
+
+🚀 ~ mode: undefined
+vite v6.4.2 building for production...
+transforming...
+✓ 25 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.21 kB │ gzip:  0.18 kB
+dist/assets/index-DR3N5dfx.js  143.82 kB │ gzip: 46.19 kB │ map: 349.07 kB
+✓ built in 348ms

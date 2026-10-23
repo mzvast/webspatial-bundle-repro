@@ -1,0 +1,434 @@
+{
+  "platform": "baseline",
+  "inputs": {
+    "src/main.tsx": "4e317e567bc4a5a024a0cb7d68fc3f9673fa52ac849c0678c073e3ae768f0f3e",
+    "package.json": "92ba4febc7a3c926c51a9f4f7fa0e94852bf8ae9c03a2467e916ebedd2e60da7",
+    "pnpm-lock.yaml": "85212a67681a35644bd2a4acf627b7ec6eb30c649acd69a780af000f17af0b0e",
+    "vite.config.mjs": "57486b0457b8216dadc7153fb760326f9d7fd66c22a138255e4f6f9d5f30d826",
+    "tsconfig.json": "add51ee18bbafdb6c48b31439332e511be8757996668cfe54a300a90730ee7f4"
+  },
+  "mode": "production",
+  "base": "/",
+  "build": {
+    "target": [
+      "es2020",
+      "edge88",
+      "firefox78",
+      "chrome87",
+      "safari14"
+    ],
+    "polyfillModulePreload": true,
+    "modulePreload": {
+      "polyfill": true
+    },
+    "outDir": "dist",
+    "assetsDir": "assets",
+    "assetsInlineLimit": 4096,
+    "sourcemap": true,
+    "terserOptions": {},
+    "rollupOptions": {},
+    "commonjsOptions": {
+      "include": [
+        {}
+      ],
+      "extensions": [
+        ".js",
+        ".cjs"
+      ]
+    },
+    "dynamicImportVarsOptions": {
+      "warnOnError": true,
+      "exclude": [
+        {}
+      ]
+    },
+    "write": true,
+    "emptyOutDir": null,
+    "copyPublicDir": true,
+    "manifest": false,
+    "lib": false,
+    "ssrManifest": false,
+    "ssrEmitAssets": false,
+    "reportCompressedSize": true,
+    "chunkSizeWarningLimit": 500,
+    "watch": null,
+    "cssCodeSplit": true,
+    "minify": "esbuild",
+    "ssr": false,
+    "emitAssets": true,
+    "cssTarget": [
+      "es2020",
+      "edge88",
+      "firefox78",
+      "chrome87",
+      "safari14"
+    ],
+    "cssMinify": true
+  },
+  "aliases": [
+    {
+      "find": "/^\\/?@vite\\/env/",
+      "replacement": "/@fs<repo>/baseline/node_modules/.pnpm/vite@6.4.2/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "find": "/^\\/?@vite\\/client/",
+      "replacement": "/@fs<repo>/baseline/node_modules/.pnpm/vite@6.4.2/node_modules/vite/dist/client/client.mjs"
+    }
+  ],
+  "modules": [
+    {
+      "id": "<repo>/baseline/index.html",
+      "importedIds": [
+        "\u0000vite/modulepreload-polyfill.js",
+        "<repo>/baseline/src/main.tsx"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/src/main.tsx",
+      "importedIds": [
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-es-import",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-es-import"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-module",
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-exports",
+        "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000vite/modulepreload-polyfill.js",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js?commonjs-module",
+        "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js?commonjs-module",
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js",
+        "<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js?commonjs-module",
+        "<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js?commonjs-exports"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-es-import",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000commonjsHelpers.js",
+      "importedIds": [],
+      "isIncluded": false
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-es-import",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    }
+  ],
+  "chunks": [
+    {
+      "fileName": "assets/index-DT-7IFFB.js",
+      "modules": {
+        "\u0000vite/modulepreload-polyfill.js": {
+          "renderedLength": 1280,
+          "originalLength": 1280,
+          "renderedExports": [],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-module": {
+          "renderedLength": 31,
+          "originalLength": 63,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports": {
+          "renderedLength": 40,
+          "originalLength": 93,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js?commonjs-module": {
+          "renderedLength": 26,
+          "originalLength": 53,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js?commonjs-exports": {
+          "renderedLength": 30,
+          "originalLength": 73,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js": {
+          "renderedLength": 7672,
+          "originalLength": 6930,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js": {
+          "renderedLength": 198,
+          "originalLength": 190,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js": {
+          "renderedLength": 1201,
+          "originalLength": 859,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js": {
+          "renderedLength": 243,
+          "originalLength": 214,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-es-import": {
+          "renderedLength": 44,
+          "originalLength": 403,
+          "renderedExports": [],
+          "removedExports": [
+            "__moduleExports",
+            "default"
+          ]
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-exports": {
+          "renderedLength": 16,
+          "originalLength": 45,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js?commonjs-module": {
+          "renderedLength": 29,
+          "originalLength": 59,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports": {
+          "renderedLength": 33,
+          "originalLength": 79,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js?commonjs-module": {
+          "renderedLength": 30,
+          "originalLength": 61,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports": {
+          "renderedLength": 34,
+          "originalLength": 81,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js": {
+          "renderedLength": 4616,
+          "originalLength": 4235,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js": {
+          "renderedLength": 230,
+          "originalLength": 198,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js": {
+          "renderedLength": 133838,
+          "originalLength": 131685,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js": {
+          "renderedLength": 524,
+          "originalLength": 1363,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js": {
+          "renderedLength": 242,
+          "originalLength": 619,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/baseline/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-es-import": {
+          "renderedLength": 36,
+          "originalLength": 399,
+          "renderedExports": [],
+          "removedExports": [
+            "__moduleExports",
+            "default"
+          ]
+        },
+        "<repo>/baseline/src/main.tsx": {
+          "renderedLength": 153,
+          "originalLength": 129,
+          "renderedExports": [],
+          "removedExports": []
+        },
+        "<repo>/baseline/index.html": {
+          "renderedLength": 0,
+          "originalLength": 181,
+          "renderedExports": [],
+          "removedExports": []
+        }
+      }
+    }
+  ]
+}

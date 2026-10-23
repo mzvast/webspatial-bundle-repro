@@ -1,0 +1,30 @@
+{
+  "name": "webspatial-bundle-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "reproduce": "node scripts/reproduce.mjs",
+    "setup:sdk": "node scripts/prepare-sdk.mjs",
+    "build:baseline": "pnpm --dir baseline run build",
+    "build:web": "env -u XR_ENV vite build",
+    "build:avp": "XR_ENV=avp vite build",
+    "verify": "node verify.mjs",
+    "measure": "node measure.mjs"
+  },
+  "dependencies": {
+    "@webspatial/core-sdk": "link:.cache/sdk/packages/core",
+    "@webspatial/react-sdk": "link:.cache/sdk/packages/react",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.4.1",
+    "@webspatial/vite-plugin": "1.0.1",
+    "vite": "6.4.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": "9.0.0"
+  }
+}

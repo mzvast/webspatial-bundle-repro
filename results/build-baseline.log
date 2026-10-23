@@ -1,0 +1,16 @@
+
+> webspatial-bundle-repro@ build:baseline <repo>
+> pnpm --dir baseline run build
+
+
+> plain-react-bundle-baseline@ build <repo>/baseline
+> env -u XR_ENV vite build
+
+vite v6.4.2 building for production...
+transforming...
+✓ 24 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.21 kB │ gzip:  0.18 kB
+dist/assets/index-DT-7IFFB.js  143.63 kB │ gzip: 46.12 kB │ map: 348.38 kB
+✓ built in 372ms

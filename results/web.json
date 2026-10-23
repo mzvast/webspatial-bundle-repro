@@ -1,0 +1,460 @@
+{
+  "platform": "web",
+  "resolvedEntries": {
+    "@webspatial/react-sdk": "<repo>/.cache/sdk/packages/react/dist/web/index.js",
+    "@webspatial/core-sdk": "<repo>/.cache/sdk/packages/core/dist/index.js"
+  },
+  "inputs": {
+    "src/main.tsx": "4e317e567bc4a5a024a0cb7d68fc3f9673fa52ac849c0678c073e3ae768f0f3e",
+    "package.json": "0172c21709f9d77d7d107cbb8c4b3913ce7a86d725926cafabada82574d49c1f",
+    "pnpm-lock.yaml": "bfd86c9ad0684e0458b67cc76ffed7a7f6b9d3c66e93e71add55a12b4575b894",
+    "vite.config.mjs": "63bd8ebf64fba7767cd8aea3354b60ff172c94e0e8e37debc3cdd0a99d34695a",
+    "tsconfig.json": "59fd9548d18d1772143815837dd16840d4e1a5bba327fd46e9b8e17406f8e345"
+  },
+  "mode": "production",
+  "base": "/",
+  "build": {
+    "target": [
+      "es2020",
+      "edge88",
+      "firefox78",
+      "chrome87",
+      "safari14"
+    ],
+    "polyfillModulePreload": true,
+    "modulePreload": {
+      "polyfill": true
+    },
+    "outDir": "dist",
+    "assetsDir": "assets",
+    "assetsInlineLimit": 4096,
+    "sourcemap": true,
+    "terserOptions": {},
+    "rollupOptions": {},
+    "commonjsOptions": {
+      "include": [
+        {}
+      ],
+      "extensions": [
+        ".js",
+        ".cjs"
+      ]
+    },
+    "dynamicImportVarsOptions": {
+      "warnOnError": true,
+      "exclude": [
+        {}
+      ]
+    },
+    "write": true,
+    "emptyOutDir": true,
+    "copyPublicDir": true,
+    "manifest": false,
+    "lib": false,
+    "ssrManifest": false,
+    "ssrEmitAssets": false,
+    "reportCompressedSize": true,
+    "chunkSizeWarningLimit": 500,
+    "watch": null,
+    "cssCodeSplit": true,
+    "minify": "esbuild",
+    "ssr": false,
+    "emitAssets": true,
+    "cssTarget": [
+      "es2020",
+      "edge88",
+      "firefox78",
+      "chrome87",
+      "safari14"
+    ],
+    "cssMinify": true
+  },
+  "aliases": [
+    {
+      "find": "/^@webspatial\\/react-sdk$/",
+      "replacement": "@webspatial/react-sdk/web"
+    },
+    {
+      "find": "/^\\/?@vite\\/env/",
+      "replacement": "/@fs<repo>/node_modules/.pnpm/vite@6.4.2/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "find": "/^\\/?@vite\\/client/",
+      "replacement": "/@fs<repo>/node_modules/.pnpm/vite@6.4.2/node_modules/vite/dist/client/client.mjs"
+    }
+  ],
+  "modules": [
+    {
+      "id": "<repo>/index.html",
+      "importedIds": [
+        "\u0000vite/modulepreload-polyfill.js",
+        "<repo>/src/main.tsx"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/src/main.tsx",
+      "importedIds": [
+        "<repo>/.cache/sdk/packages/react/dist/jsx/jsx-runtime.web.js",
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-es-import"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-exports",
+        "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000vite/modulepreload-polyfill.js",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/.cache/sdk/packages/react/dist/jsx/jsx-runtime.web.js",
+      "importedIds": [
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-es-import"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-module",
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js?commonjs-module",
+        "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js?commonjs-module",
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js",
+        "<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js?commonjs-module",
+        "<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js?commonjs-exports"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "\u0000<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-es-import",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000commonjsHelpers.js",
+      "importedIds": [],
+      "isIncluded": false
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-es-import",
+      "importedIds": [
+        "\u0000commonjsHelpers.js",
+        "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js"
+      ],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js?commonjs-module",
+      "importedIds": [],
+      "isIncluded": true
+    },
+    {
+      "id": "\u0000<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports",
+      "importedIds": [],
+      "isIncluded": true
+    }
+  ],
+  "chunks": [
+    {
+      "fileName": "assets/index-DR3N5dfx.js",
+      "modules": {
+        "\u0000vite/modulepreload-polyfill.js": {
+          "renderedLength": 1280,
+          "originalLength": 1280,
+          "renderedExports": [],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-module": {
+          "renderedLength": 31,
+          "originalLength": 63,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports": {
+          "renderedLength": 40,
+          "originalLength": 93,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js?commonjs-module": {
+          "renderedLength": 26,
+          "originalLength": 53,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js?commonjs-exports": {
+          "renderedLength": 30,
+          "originalLength": 73,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js": {
+          "renderedLength": 7672,
+          "originalLength": 6930,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js": {
+          "renderedLength": 198,
+          "originalLength": 190,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.production.min.js": {
+          "renderedLength": 1201,
+          "originalLength": 859,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js": {
+          "renderedLength": 243,
+          "originalLength": 214,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js?commonjs-es-import": {
+          "renderedLength": 44,
+          "originalLength": 394,
+          "renderedExports": [],
+          "removedExports": [
+            "__moduleExports",
+            "default"
+          ]
+        },
+        "<repo>/.cache/sdk/packages/react/dist/jsx/jsx-runtime.web.js": {
+          "renderedLength": 258,
+          "originalLength": 474,
+          "renderedExports": [
+            "jsx"
+          ],
+          "removedExports": [
+            "Fragment",
+            "jsxs"
+          ]
+        },
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-exports": {
+          "renderedLength": 16,
+          "originalLength": 45,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js?commonjs-module": {
+          "renderedLength": 29,
+          "originalLength": 59,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports": {
+          "renderedLength": 33,
+          "originalLength": 79,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js?commonjs-module": {
+          "renderedLength": 30,
+          "originalLength": 61,
+          "renderedExports": [
+            "__module"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports": {
+          "renderedLength": 34,
+          "originalLength": 81,
+          "renderedExports": [
+            "__exports"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.production.min.js": {
+          "renderedLength": 4616,
+          "originalLength": 4235,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js": {
+          "renderedLength": 230,
+          "originalLength": 198,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.production.min.js": {
+          "renderedLength": 133838,
+          "originalLength": 131685,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js": {
+          "renderedLength": 524,
+          "originalLength": 1363,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js": {
+          "renderedLength": 242,
+          "originalLength": 619,
+          "renderedExports": [
+            "__require"
+          ],
+          "removedExports": []
+        },
+        "\u0000<repo>/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js?commonjs-es-import": {
+          "renderedLength": 36,
+          "originalLength": 390,
+          "renderedExports": [],
+          "removedExports": [
+            "__moduleExports",
+            "default"
+          ]
+        },
+        "<repo>/src/main.tsx": {
+          "renderedLength": 153,
+          "originalLength": 129,
+          "renderedExports": [],
+          "removedExports": []
+        },
+        "<repo>/index.html": {
+          "renderedLength": 0,
+          "originalLength": 181,
+          "renderedExports": [],
+          "removedExports": []
+        }
+      }
+    }
+  ]
+}

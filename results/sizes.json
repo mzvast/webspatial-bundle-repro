@@ -1,0 +1,109 @@
+{
+  "baseline": {
+    "files": [
+      {
+        "path": "baseline/dist/assets/index-DT-7IFFB.js",
+        "raw": 143629,
+        "gzip": 46122,
+        "sha256": "91e5f5fd93ae88e63968c7ea3141c73e677ba53a8e97601e9739e8098ef93e46"
+      }
+    ],
+    "raw": 143629,
+    "gzip": 46122,
+    "sdkModules": []
+  },
+  "web": {
+    "files": [
+      {
+        "path": "dist/assets/index-DR3N5dfx.js",
+        "raw": 143818,
+        "gzip": 46188,
+        "sha256": "3af3edcd3804996fb616c67e2191a062fa2bc1e2f8ac1b1604a1f6c23d5f08d6"
+      }
+    ],
+    "raw": 143818,
+    "gzip": 46188,
+    "sdkModules": [
+      {
+        "id": "<repo>/.cache/sdk/packages/react/dist/jsx/jsx-runtime.web.js",
+        "renderedLength": 258
+      }
+    ]
+  },
+  "avp": {
+    "files": [
+      {
+        "path": "dist/webspatial/avp/assets/index-BEMb-mYP.js",
+        "raw": 247965,
+        "gzip": 73174,
+        "sha256": "f01717476657c47af9eede9f6722d1e8ff9b660141d4fc56c760e856526e7920"
+      }
+    ],
+    "raw": 247965,
+    "gzip": 73174,
+    "sdkModules": [
+      {
+        "id": "<repo>/.cache/sdk/packages/core/dist/index.js",
+        "renderedLength": 103917
+      },
+      {
+        "id": "<repo>/.cache/sdk/packages/react/dist/default/index.js",
+        "renderedLength": 107662
+      },
+      {
+        "id": "<repo>/.cache/sdk/packages/react/dist/jsx/jsx-runtime.js",
+        "renderedLength": 1470
+      }
+    ]
+  },
+  "savings": {
+    "raw": {
+      "bytes": 104147,
+      "kib": 101.7060546875,
+      "percent": 42.000685580626296
+    },
+    "gzip": {
+      "bytes": 26986,
+      "kib": 26.353515625,
+      "percent": 36.87921939486703
+    }
+  },
+  "increments": {
+    "web": {
+      "raw": {
+        "bytes": 189,
+        "kib": 0.1845703125,
+        "percent": 0.13158902450062313
+      },
+      "gzip": {
+        "bytes": 66,
+        "kib": 0.064453125,
+        "percent": 0.14309873812930923
+      }
+    },
+    "avp": {
+      "raw": {
+        "bytes": 104336,
+        "kib": 101.890625,
+        "percent": 72.64271143014294
+      },
+      "gzip": {
+        "bytes": 27052,
+        "kib": 26.41796875,
+        "percent": 58.653137331425356
+      }
+    }
+  },
+  "avpOverWeb": {
+    "raw": {
+      "bytes": 104147,
+      "kib": 101.7060546875,
+      "percent": 72.41583111988763
+    },
+    "gzip": {
+      "bytes": 26986,
+      "kib": 26.353515625,
+      "percent": 58.426431107647005
+    }
+  }
+}

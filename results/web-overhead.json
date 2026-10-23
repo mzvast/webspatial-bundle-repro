@@ -1,0 +1,7 @@
+{
+  "equivalentAfterRemovingMetadata": true,
+  "addedRawBytes": 189,
+  "removed": ";(function(){typeof window>\"u\"||(window.__webspatialsdk__||(window.__webspatialsdk__={}),window.__webspatialsdk__[\"react-sdk-version\"]=\"1.6.1\",window.__webspatialsdk__.XR_ENV=\"web\")})();var ",
+  "replacement": ",",
+  "note": "sourceMappingURL filenames normalized; equal-length filenames do not affect raw delta"
+}
